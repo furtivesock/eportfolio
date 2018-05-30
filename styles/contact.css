@@ -1,0 +1,128 @@
+/*HEADER*/
+header {
+    background-image:url('../images/monika.jpg');
+}
+
+/*Enlever cadre bleu au focus*/
+*:focus {
+    outline: none;
+}
+
+/*Centrer formulaire dans sa colonne*/
+form {
+    text-align: center;
+}
+
+/*Nom du champ*/
+label {
+    font-family: Quattrocento;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #edf1ff;
+}
+
+/*Nom du champ à gauche*/
+.info label {
+    float: left;
+    margin-left: 20px;
+}
+
+/*Taille des barres et zones de saisie*/
+.info input, .info textarea {
+    width: 100%;
+}
+
+/*Bouton radio*/
+input[type="radio"], input[type="checkbox"] {
+    margin-top: -1px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*Barre de saisie*/ 
+.saisie {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: block;
+    background: #262840;
+    border-left: 5px solid #a6bcff;
+    border-right: 5px solid #a6bcff;
+    border-top: 0px;
+    border-bottom: 0px;
+    box-shadow: 0 0 10px rgb(18, 18, 23) inset;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    transition: 0.5s all ease;
+}
+
+.saisie:hover, .saisie:focus {
+    border-left: 5px solid #66cdaa;
+    border-right: 5px solid #66cdaa;
+}
+
+.saisie:focus {
+    background-color: #333656;
+}
+
+.type input {
+    display:inline-block;
+}
+
+/*Bouton envoyer*/
+.bouton {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: Quattrocento;
+    font-weight: 700;
+    color: #65cba9;
+    background-image: linear-gradient(to top, #66cdaa26, transparent);
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 0 auto;
+    border-image: linear-gradient(to top, #66cdaa73, #242b42);
+    border: 1px solid #66cdaa;
+    box-shadow: 2px 3px 0 rgba(0,0,0,0.2);
+    font-size: 22px;
+    color: rgb(102, 205, 170);
+    text-shadow: 0px -1px 1px rgba(0,0,0,0.4);
+    padding: 8px 15px 8px 15px;
+    border-radius: 6em;
+}
+
+.bouton:hover {
+    box-shadow: 0 0 8px #66cdaa inset;
+}
+
+/*Genre qui apparaît si particulier est sélectionné*/
+#genre {
+    visibility:hidden;
+    max-height:0;
+    opacity:0;
+    transition: all 0.5s ease;
+}
+
+input[value="particulier"]:checked ~ #genre {
+    visibility:visible;
+    opacity: 1;
+    max-height:100px;
+}
+
+/*Message d'information caché par défaut*/
+.cache {
+    opacity:0;
+    max-height:0;
+    position: relative!important;
+    transition: all 1s ease;
+    margin-bottom:5px;
+}
+
+input:focus + .cache {
+    opacity:1;
+    max-height:60px;
+}
+
+/*Message d'indication dans barre de saisie*/
+::placeholder {
+    color: #a6bcff!important;
+}

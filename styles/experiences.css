@@ -1,0 +1,35 @@
+/*HEADER*/
+
+header {
+    background-image: url('https://media.giphy.com/media/CAXFWvA45K48w/200.gif');
+}
+
+/*IMAGES D'ILLUSTRATIONS*/
+
+#image-webmag {
+    background-image:url('../images/couverturen5noel_zps9e9108c6.JPG');
+}
+
+#image-alk {
+    background-image:url('https://media.giphy.com/media/3orifb9uia6g30MbE4/giphy.gif')
+}
+
+#image-puella-magi {
+    background-image:url('http://images.pausecafein.fr/images/cafein/2016/06/anime/mami-tomoe.gif');
+    background-position: center top;
+}
+
+/*ICONES*/
+
+#webmag {
+    background-image:url('http://i0.kym-cdn.com/entries/icons/original/000/003/549/Dolan.jpg');
+}
+
+#alk {
+    background-image:url('../images/alk.png');
+}
+
+#puella-magi {
+     background-image:url('../images/madokami.JPG');
+}
+
