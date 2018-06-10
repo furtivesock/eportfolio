@@ -1,2 +1,2 @@
 # eportfolio
-my old portfolio lulz, needs to be updated sometiem
+My portfolio (school project), it needs to be updated.
