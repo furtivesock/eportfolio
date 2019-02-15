@@ -1,176 +1,190 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Portfolieau</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link href="css/navbar-fixed-left.min.css" rel="stylesheet" />
-        <link href="styles/default.css" rel="stylesheet" type="text/css">
-        <link href="styles/competences.css" rel="stylesheet" type="text/css">
-        <!-- Intégration police Quattrocento -->
-        <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
-        <link href="images/favicon.ico" rel="icon" type="image/x-icon">
-        <style>
-        </style>       
-    </head>
-    <body>
-        <!-- Barre de navigation -->
-        <nav class="navbar navbar-fixed-left">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolieau</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/navbar-fixed-left.min.css" rel="stylesheet" />
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <link href="styles/competences.css" rel="stylesheet" type="text/css">
+    <!-- Intégration police Quattrocento -->
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-fixed-left">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Portfolio</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="accueil.html"><span class="glyphicon glyphicon-home"></span><br>Home</a></li>
-                    <li><div class="ligne"></div></li>
-                    <li class="dropdown">
-                        <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Filtrer<span class="fleche-bas"></span></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="filtre" data-target="accueil.html#design" href="accueil.html#design">Web design</a>
-                            </li>
-                            <li>
-                                <a class="filtre" data-target="accueil.html#dessin" href="accueil.html#dessin">Dessin</a>
-                            </li>
-                            <li>
-                                <a class="filtre" data-target="accueil.html#graphisme" href="accueil.html#graphisme">Graphisme</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><div class="ligne"></div></li>
-                    <li><a href="experiences.html"><span class="glyphicon glyphicon-grain"></span><br>XP</a></li>
-                    <li><div class="ligne"></div></li>
-                    <li><a href="competences.html"><span class="glyphicon glyphicon-list-alt"></span><br>Skills</a></li>
-                    <li><div class="ligne"></div></li>
-                    <li><a href="loisirs.html"><span class="glyphicon glyphicon-scissors"></span><br>Hobbies</a></li>
-                    <li><div class="ligne"></div></li>
-                    <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span><br>Contact</a></li>
-                </ul>
-            </div> 
-            <p class="copyright">©2017<br>Sophie Nguyen</p>
-        </nav>
-        <!-- /Barre de navigation -->
-        <!-- En-tête -->
-        <header><a href="#bas" class="filtre" id="fleche-container"><span class="glyphicon glyphicon-chevron-down"></span></a></header>
-        <!-- /En-tête -->
-        <div class="container" id="bas">
-            <!-- Titre de site -->
-            <div class="titre-site">
-                <h1>
-                    Port<span id="retour">folio</span>
-                </h1>
-                <div class="sous-titre">
-                    Sophie Nguyen | Paris, France
-                </div>
-            </div>
-            <!-- /Titre de site -->
-            <!-- Titre de page -->
-            <div class="jumbotron text-center">
-                <div class="moyen-titre">Compétences</div>
-            </div>
-            <!-- /Titre de site -->
-            <!-- Tableau de compétences -->
-            <div class="tableau">
-                <table>
-                    <!-- Titres des colonnes -->
-                    <thead>
-                        <td>Pôle</td>
-                        <td>Logiciels</td>
-                        <td>Progression</td>
-                        <td>Commentaires</td>
-                    </thead>
-                    <!-- /Titres des colonnes -->
-                    <tbody>
-                        <!-- Ligne Design -->
-                        <tr> 
-                            <td rowspan="2" class="tableau-titre-ligne">Design</td>
-                            <td>Photoshop CS6</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
-                            <td rowspan="2"></td>
-                        </tr>
-                        <tr>
-                            <td>Indesign</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
-                        </tr>
-                        <!-- /Ligne Design -->
-                        <!-- Ligne webdesign -->
-                        <tr>
-                            <td rowspan="4" class="tableau-titre-ligne">Webdesign</td>
-                            <td>HTML</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></td>
-                            <td rowspan="4">J'ai appris le HTML/CSS indépendamment de mes études. Il faut que je maîtrise le javascript et le php pour créer des sites plus dynamiques et qui suivent la demande actuelle.</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></td></tr>
-                        <tr>
-                            <td>Javascript</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Wordpress</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
-                        </tr>
-                        <!-- /Ligne webdesign -->
-                        <!-- Ligne programmation -->
-                        <tr>
-                            <td rowspan="5" class="tableau-titre-ligne">Programmation</td>
-                            <td>C++</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>SQL</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>PHP</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Ruby</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                        </tr>
-                        <!-- /Ligne programmation -->
-                        <!-- Ligne dessin -->
-                        <tr>
-                            <td rowspan="3" class="tableau-titre-ligne">Dessin</td>
-                            <td>En général</td>
-                            <td>
-                                <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                            <td rowspan="3">Mon style de dessin est le semi-réalisme. Je dois m'améliorer en colorisation digitale et en anatomie, en faisant des poses plus dynamiques.</td>
-                        </tr>
-                        <tr>
-                            <td>Paint Tool Sai</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
-                        </tr>
-                        <tr>
-                            <td>Illustrator</td>
-                            <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
-                            </td>
-                        </tr>
-                        <!-- /Ligne dessin -->
-                    </tbody>
-                </table>
-            </div>
-            <!-- /Tableau de compétences -->
+            <a class="navbar-brand" href="#">Portfolio</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span><br>Home</a></li>
+                <li>
+                    <div class="ligne"></div>
+                </li>
+                <li class="dropdown">
+                    <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">Filtrer<span class="fleche-bas"></span></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="filtre" data-target="index.html#design" href="index.html#design">Web design</a>
+                        </li>
+                        <li>
+                            <a class="filtre" data-target="index.html#dessin" href="index.html#dessin">Dessin</a>
+                        </li>
+                        <li>
+                            <a class="filtre" data-target="index.html#graphisme" href="index.html#graphisme">Graphisme</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="ligne"></div>
+                </li>
+                <li><a href="experiences.html"><span class="glyphicon glyphicon-grain"></span><br>XP</a></li>
+                <li>
+                    <div class="ligne"></div>
+                </li>
+                <li><a href="competences.html"><span class="glyphicon glyphicon-list-alt"></span><br>Skills</a></li>
+                <li>
+                    <div class="ligne"></div>
+                </li>
+                <li><a href="loisirs.html"><span class="glyphicon glyphicon-scissors"></span><br>Hobbies</a></li>
+                <li>
+                    <div class="ligne"></div>
+                </li>
+                <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span><br>Contact</a></li>
+            </ul>
+        </div>
+        <p class="copyright">©2017<br>Sophie Nguyen</p>
+    </nav>
+    <!-- /Barre de navigation -->
+    <!-- En-tête -->
+    <header><a href="#bas" class="filtre" id="fleche-container"><span class="glyphicon glyphicon-chevron-down"></span></a></header>
+    <!-- /En-tête -->
+    <div class="container" id="bas">
+        <!-- Titre de site -->
+        <div class="titre-site">
+            <h1>
+                Port<span id="retour">folio</span>
+            </h1>
+            <div class="sous-titre">
+                Sophie Nguyen | Paris, France
+            </div>
+        </div>
+        <!-- /Titre de site -->
+        <!-- Titre de page -->
+        <div class="jumbotron text-center">
+            <div class="moyen-titre">Compétences</div>
+        </div>
+        <!-- /Titre de site -->
+        <!-- Tableau de compétences -->
+        <div class="tableau">
+            <table>
+                <!-- Titres des colonnes -->
+                <thead>
+                    <td>Pôle</td>
+                    <td>Logiciels</td>
+                    <td>Progression</td>
+                    <td>Commentaires</td>
+                </thead>
+                <!-- /Titres des colonnes -->
+                <tbody>
+                    <!-- Ligne Design -->
+                    <tr>
+                        <td rowspan="2" class="tableau-titre-ligne">Design</td>
+                        <td>Photoshop CS6</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                        <td rowspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>Indesign</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                    </tr>
+                    <!-- /Ligne Design -->
+                    <!-- Ligne webdesign -->
+                    <tr>
+                        <td rowspan="4" class="tableau-titre-ligne">Webdesign</td>
+                        <td>HTML</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                        <td rowspan="4">J'ai appris le HTML/CSS indépendamment de mes études. Il faut que je maîtrise le javascript et le php pour créer des sites plus dynamiques et qui suivent la demande actuelle.</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Javascript</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Wordpress</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                    </tr>
+                    <!-- /Ligne webdesign -->
+                    <!-- Ligne programmation -->
+                    <tr>
+                        <td rowspan="5" class="tableau-titre-ligne">Programmation</td>
+                        <td>C++</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ruby</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                    </tr>
+                    <!-- /Ligne programmation -->
+                    <!-- Ligne dessin -->
+                    <tr>
+                        <td rowspan="3" class="tableau-titre-ligne">Dessin</td>
+                        <td>En général</td>
+                        <td>
+                            <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                        <td rowspan="3">Mon style de dessin est le semi-réalisme. Je dois m'améliorer en colorisation digitale et en anatomie, en faisant des poses plus dynamiques.</td>
+                    </tr>
+                    <tr>
+                        <td>Paint Tool Sai</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Illustrator</td>
+                        <td><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span>
+                        </td>
+                    </tr>
+                    <!-- /Ligne dessin -->
+                </tbody>
+            </table>
+        </div>
+        <!-- /Tableau de compétences -->
+    </div>
 
     <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -195,7 +209,6 @@
             }
 
         }())
-
     </script>
     <!-- Correction Défilement doux et bug bootstrap (dropdown) -->
     <script type="text/javascript" src="js/smoothscroll.js"></script>
@@ -204,7 +217,7 @@
         $('li.dropdown ul').find('a').on('click', function() {
             window.location = $(this).attr('href');
         });
-        $('.filtre').click(function(e){
+        $('.filtre').click(function(e) {
             e.preventDefault();
 
             var a_href = $(this).attr('href');
@@ -212,10 +225,12 @@
             //alert(a_href + ' ' + elementOffset);
             //alert( distance);
 
-            $("html, body").animate({ scrollTop: elementOffset }, 500);
+            $("html, body").animate({
+                scrollTop: elementOffset
+            }, 500);
         });
     </script>
     <!-- /Correction bug bootstrap (dropdown) et Défilement doux -->
-    </body>
+</body>
 
 </html>
