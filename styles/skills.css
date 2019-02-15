@@ -1,0 +1,64 @@
+/*HEADER*/ 
+
+header {
+    background-image: url('../images/lain.gif');
+}
+
+/* Tableau responsive : scroll horizontal si format réduit */
+.tableau {
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: #242b42;
+    color: #a6bcff;
+}
+
+/*Titres des colonnes*/
+thead {
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #121217;
+   color: #7c7e94;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to left, #242b42, #66cdaa, #242b42)!important;
+    border-image-slice: 1;
+}
+
+/*Cellule du tableau*/
+td {
+    border-bottom: 1px solid #181925;
+    padding: 10px;
+    width: 25%;
+    text-shadow: 1px 1px 5px #000;
+    
+    text-align: center;
+}
+
+/*Titres des lignes*/
+.tableau-titre-ligne {
+    color: #66cdaa;
+    font-family: Quattrocento;
+    font-size: 30px;
+}
+
+
+/*Progression en étoiles*/
+
+.tableau .glyphicon {
+    text-shadow: 0 0 0; 
+    font-size: 25px;
+}
+
+.tableau .glyphicon-star {
+   color:#66cdaa;
+}
+
+.tableau .glyphicon-star-empty {
+   color: #181925;
+}
