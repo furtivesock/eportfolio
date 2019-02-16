@@ -179,7 +179,7 @@ header {
 
 /*DEBUT CONTENU*/
 
-.titre-site {
+.website-title {
     margin-bottom: 10px;
     width: 100%;
     text-align: center;
@@ -218,8 +218,6 @@ header {
 /*TITRE*/
 
 h1 {
-    -webkit-animation: etirement1 0.8s ease-in-out;
-    animation: etirement1 1s linear;
     font-family: Quattrocento;
     font-size: 110px;
     color: #66cdaa;
@@ -227,6 +225,11 @@ h1 {
     text-transform: uppercase;
     text-shadow: -2px 0 0 rgb(255, 255, 255), 0 0 10px #66cdaa;
     font-style: italic;
+}
+
+.home-title {
+    -webkit-animation: etirement1 0.8s ease-in-out;
+    animation: etirement1 1s linear;
 }
 
 .sous-titre {
@@ -914,9 +917,8 @@ h1 {
 
 /*Ligne de séparation entre les li*/
 
-.ligne {
+.line-separator {
     border-bottom: 1px solid #26273a;
-    animation: 1.5s ease-in-out etirement;
 }
 
 
